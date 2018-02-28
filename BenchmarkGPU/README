@@ -1,0 +1,10 @@
+
+This directory offers a benchmark on GPU with a concrete utilization.
+The only thing to do to launch the test is to run "python main.py" on a computer with a GPU.
+
+After initializing the network, the algorithm will apply gradient descents and print the time spent every 100 descents.
+The test on the current GPU of the lab gave a result of 100 descents in a mean time of 8s.
+
+Requirements :
+- numpy
+- tensorflow
